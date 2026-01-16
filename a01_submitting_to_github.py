@@ -1,11 +1,11 @@
-# Name: <Enter your name>
-# Description: <Enter a short description of your code>
-'''
-Write your code below these comments.
+# Name: Scotty Frederick
+# Description: This is inputting a number and dividing it by 2
 
-You can test your code using the testing tab on the left.
-When finished, upload your code by committing it and pushing it back up to 
-GitHub. I recommend using GitHub Desktop to do that.
+#Input number and convert to integer
+num = int(input("Please enter a whole number:")) 
 
-You can delete these comments after reading them.
-'''
+#divide number by 2
+new_number = num / 2
+
+#Print final message.
+print(f"{num} divided by 2 is {new_number}.")
